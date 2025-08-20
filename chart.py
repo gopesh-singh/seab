@@ -72,5 +72,6 @@ sns.despine(offset=5, trim=True)
 # Do not change figure size after this point; save directly
 # 8 in * 64 dpi = 512 px exactly
 plt.tight_layout()
-plt.savefig("chart.png", dpi=64, bbox_inches="tight")
+plt.savefig("chart.png", dpi=64)
 plt.close()
+
